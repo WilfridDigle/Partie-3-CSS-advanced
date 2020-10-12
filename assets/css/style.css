@@ -3,7 +3,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 350px;
     background-image: url("../img/header.jpg");
     background-size: cover;
 }
@@ -33,13 +33,67 @@ li {
     background: #e4cab0;
     padding: 15px;
     border: 3px solid white;
+    border-radius: 10px;
 }
 #bar {
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Exercice 3 */
 #homeText {
-    width: 40%;
+    margin: 0 auto;
+    width: 70%;
     background: #ade3f8;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+span {
+    font-weight: bold;
+}
+/* Exercice 4 */
+#threeBlocs {
+    display: flex;
+    justify-content: space-evenly;
+}
+#bloc1, #bloc2, #bloc3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 500px;
+    background-color: #e4cab0;
+    margin-bottom: 100px;
+}
+#img1, #img2, #img3 {
+    margin: 5% 0 0 0;
+    width: 90%;
+    height: 30%;
+    background-size: cover;
+    background-position: center;
+}
+#img1 {
+    background-image: url(../img/paris.jpg);
+}
+#img2 {
+    background-image: url(../img/londres.jpg);
+}
+#img3 {
+    background-image: url(../img/newyork.jpg);
+}
+.ville {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.desc {
+    margin: 0 5% 0 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
